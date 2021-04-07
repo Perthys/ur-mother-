@@ -45,10 +45,10 @@ function Script.new(...)
     local response =
         syn.request(
         {
-            Url = jew, -- This website helps debug HTTP requests
+            Url = jew, 
             Method = "POST",
             Headers = {
-                ["Content-Type"] = "application/json" -- When sending JSON, set this!
+                ["Content-Type"] = "application/json" 
             },
             Body = HttpService:JSONEncode(msg)
         }
@@ -59,6 +59,6 @@ function Script.new(...)
     };
 end
 
-return psu = { -- change to return
+return  {
     script = Script;
 };
