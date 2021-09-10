@@ -1,5 +1,5 @@
 local getgenv = getgenv;
-getgenv().Toggle = true; — using _G. In synaspe returns the exploits global env but I like getgenv more
+getgenv().Toggle = true; —- using _G. In synaspe returns the exploits global env but I like getgenv more
 local game = game;
 
 local GetService = game.GetService;
@@ -32,7 +32,7 @@ while getgenv().Toggle do
 
       local Position = Variable[VariableName].Position;
 
-      HumanoidRootPart.CFrame = CFrame_New(Position) + VectorOffset; — you don’t need to use a different data type here but I kept it in in order of consistency
+      HumanoidRootPart.CFrame = CFrame_New(Position) + VectorOffset; —- you don’t need to use a different data type here but I kept it in in order of consistency
 
       end;
       wait();
