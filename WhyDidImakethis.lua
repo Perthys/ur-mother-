@@ -1,5 +1,5 @@
 local getgenv = getgenv;
-getgenv().Toggle = true; —- using _G. In synaspe returns the exploits global env but I like getgenv more
+getgenv().Toggle = true; --using _G. In synaspe returns the exploits global env but I like getgenv more
 local game = game;
 
 local GetService = game.GetService;
